@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competencia Estudiantil UV 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #006400;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #004d00;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #FFD700;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    section img {
+      max-width: 80%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    }
+    h2 {
+      color: #006400;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
+    }
+    ul li {
+      margin: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      background: #006400;
+      color: white;
+      padding: 12px 25px;
+      margin-top: 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .btn:hover {
+      background: #004d00;
+      transform: scale(1.05);
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: left;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    }
+    form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #004d00;
+    }
+    form input, form select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      border: none;
+      background: #006400;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+    form button:hover {
+      background: #004d00;
+      transform: scale(1.05);
+    }
+    footer {
+      background: #004d00;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="https://www.uv.mx" target="_blank">
+    <img src="R.jpg" alt="Logo UV">
+  </a>
+  <h1>Competencia Estudiantil UV 2025</h1>
+  <p>Facultad de Ciencias Administrativas y Sociales - Xalapa</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#programa">Programa</a>
+  <a href="#registro">Registro</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bienvenidos</h2>
+  <img src="portada_estudiantes.jpg" alt="Portada Competencia UV">
+  <p>La Universidad Veracruzana organiza esta competencia para destacar el talento de los estudiantes. 
+  ¡Participa y demuestra tus habilidades en un ambiente de colaboración e innovación!</p>
+</section>
+
+<section id="programa">
+  <h2>Programa del Evento</h2>
+  <ul>
+    <li>📌 Inauguración: 9:00 AM</li>
+    <li>🎤 Conferencias: 10:00 AM - 1:00 PM</li>
+    <li>💡 Presentación de proyectos: 2:00 PM - 5:00 PM</li>
+    <li>🏆 Premiación: 6:00 PM</li>
+  </ul>
+</section>
+
+<section id="registro">
+  <h2>Registro de Participantes</h2>
+  <p>📋 Puedes registrarte directamente en esta página o llenar la encuesta en Google Forms.</p>
+  
+  <!-- Botón que lleva a Google Forms -->
+  <a href="https://forms.gle/TU-LINK-AQUI" target="_blank" class="btn">Ir a Google Forms</a>
+
+  <h3 style="margin-top:30px;">Formulario de Registro Interno</h3>
+  <form action="#" method="post">
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+
+    <label for="facultad">Facultad:</label>
+    <input type="text" id="facultad" name="facultad" required>
+
+    <label for="sede">Sede:</label>
+    <select id="sede" name="sede" required>
+      <option value="fcas">FCAS</option>
+      <option value="xalapa">Xalapa</option>
+    </select>
+
+    <button type="submit">Registrarse</button>
+  </form>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>📍 Sede: Facultad de Ciencias Administrativas y Sociales, Xalapa</p>
+  <p>📧 Correo: competenciaUV@uv.mx</p>
+  <p>📞 Teléfono: (228) 123 4567</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Universidad Veracruzana - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
